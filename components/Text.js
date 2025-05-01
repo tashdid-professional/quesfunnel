@@ -17,7 +17,7 @@ function Text() {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1, delay: 0.25 }}
       >
-        Unleash your organization's potential with cutting-edge product design
+        Unleash your organization&apos;s potential with cutting-edge product design
         and technology expertise for{" "}
         <span className="text-[#7543FF]">unparalleled impact.</span>
       </motion.h1>
