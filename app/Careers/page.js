@@ -3,7 +3,7 @@ import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-function page() {
+function Page() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true });
   return (
@@ -31,4 +31,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

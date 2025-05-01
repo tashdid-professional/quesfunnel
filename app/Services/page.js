@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Expertise from "@/components/Expertise";
 import Image from "next/image";
-function page() {
+function Page() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true });
   return (
@@ -97,4 +97,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

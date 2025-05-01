@@ -15,7 +15,7 @@ function Footer() {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1, delay:0.5}}>
           <div className="lg:w-[40%]">
-          <h1 className="text-5xl font-bold text-white lg:pb-0 pb-4 ">Let's talk</h1>
+          <h1 className="text-5xl font-bold text-white lg:pb-0 pb-4 ">Let&apos;s talk</h1>
           <div className="flex gap-4 mt-5 ">
             <div className="bg-white  rounded-full p-3">
               <Linkedin size={20} />

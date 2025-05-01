@@ -58,7 +58,7 @@ function LatestProjects() {
                 PORTFOLIO
               </button>
               <h1 className="text-4xl font-semibold">
-                Adox Studio Website to showcase a Designer's talent
+                Adox Studio Website to showcase a Designer&apos;s talent
               </h1>
               <h2>
                 Adox studio offers multiples services such as designs,

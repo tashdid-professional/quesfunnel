@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import LatestProjects from "@/components/LatestProjects";
 import Image from "next/image";
 
-function page() {
+function Page() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true });
   return (
@@ -94,4 +94,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
