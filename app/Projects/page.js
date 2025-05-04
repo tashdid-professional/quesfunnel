@@ -2,7 +2,7 @@
 import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import LatestProjects from "@/components/LatestProjects";
+import LatestProjects from "../../components/LatestProjects";
 import Image from "next/image";
 
 function Page() {

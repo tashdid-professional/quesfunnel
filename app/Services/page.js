@@ -2,7 +2,7 @@
 import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import Expertise from "@/components/Expertise";
+import Expertise from "../../components/Expertise";
 import Image from "next/image";
 function Page() {
   const sectionRef = useRef(null);
