@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { name, email, message } = body;
+    const { name, email, message ,service} = body;
 
     const data = await resend.emails.send({
       from: 'Quest Funnel <info@tashdid.online>',
@@ -14,6 +14,7 @@ export async function POST(req: Request) {
       subject: 'New Contact Form Submission',
       html: `<p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
+             <p><strong>Service:</strong> ${service}</p>
              <p><strong>Message:</strong> ${message}</p>`
     });
     await resend.emails.send({
