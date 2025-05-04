@@ -45,9 +45,10 @@ function Navbar() {
             </Link>
           ))}
         </div>
+        <Link href={'/Contact'}>
         <button className="bg-blue-600 px-3 py-2 rounded-sm text-white lg:block hidden">
           Contact us
-        </button>
+        </button></Link>
         {/* for mobile */}
         <div onClick={() => setIsToggled(!isToggled)} className="lg:hidden">
           {isToggled == false ? (

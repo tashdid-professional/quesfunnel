@@ -29,7 +29,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.25 }}
           >
-            Be Choosen <br />
+            Be Chosen <br />
           </motion.span>
           <motion.span
             className="flex gap-5 lg:gap-8"
